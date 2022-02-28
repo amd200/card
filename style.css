@@ -148,3 +148,17 @@ textarea::placeholder {
   margin: 0 auto;
   border-radius: 5px;
 }
+
+@media (max-width: 765px) {
+  .card {
+    margin-bottom: 20px;
+    width: 90%;
+    height: 180px;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    /* align-items: center; */
+    margin: 20px auto;
+  }
+}
